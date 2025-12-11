@@ -1,0 +1,17 @@
+{
+	"name": "salesdata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Sales_Fact_Daily"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

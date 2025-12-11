@@ -1,0 +1,53 @@
+{
+	"name": "sales_folder",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Blob_shreemart",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "sales",
+				"container": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "StoreId",
+				"type": "String"
+			},
+			{
+				"name": " InvoiceNo",
+				"type": "String"
+			},
+			{
+				"name": " ProductId",
+				"type": "String"
+			},
+			{
+				"name": " Quantity",
+				"type": "String"
+			},
+			{
+				"name": " UnitPrice",
+				"type": "String"
+			},
+			{
+				"name": " Discount",
+				"type": "String"
+			},
+			{
+				"name": " SaleDateTime",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

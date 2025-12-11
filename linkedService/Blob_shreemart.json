@@ -1,0 +1,12 @@
+{
+	"name": "Blob_shreemart",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=shreemartstorageaccount;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDY1OUQxNDMzLTkwMkYtNDJDMy05MDNDLUZBN0I4NTE0OUQ1OV8yNGY1NzQzNC01ZTVmLTQ1ZTAtODRjNy0yM2E2YTg1ODEwMzMiDQp9"
+		}
+	}
+}

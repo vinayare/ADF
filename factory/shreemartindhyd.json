@@ -1,0 +1,9 @@
+{
+	"name": "shreemartindhyd",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a95e9ba8-0fb1-4722-bfe4-717ff5d4e969",
+		"tenantId": "f8070a98-018f-4cfa-b6e7-4afa699df7bb"
+	}
+}
