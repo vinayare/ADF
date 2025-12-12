@@ -1,0 +1,39 @@
+{
+	"name": "Control_Sales_Files",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ControlFileId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "FileName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "FileDate",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Expected_Record_Count",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Status",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Control_Sales_Files"
+		}
+	}
+}
